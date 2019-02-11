@@ -7,7 +7,7 @@ fig, ax = plt.subplots(nrows=2, ncols=2, figsize=(16,10)) # 两行两列共4个�
 ```
 **2.1 线形图**
 ```
-ax[0,0]. plot(x, y)
+ax[0,0].plot(x, y)
 ```
 **2.2 散点图**
 ```
@@ -26,11 +26,11 @@ ax[1,1].pie()
 **3. 图设置**
 ```
 ax.set(title='', xlabel='', ylebel='') #整体设置
-ax.title()  # 设置图名
-ax.xlim() #设置轴参数
-ax.ylim()
-ax.xlabel() #设置轴名
-ax.ylabel()
-ax.legend() #添加图注
+ax.set_title()  # 设置图名
+ax.set_xlim() #设置轴参数
+ax.set_ylim()
+ax.set_xlabel() #设置轴名
+ax.set_ylabel()
+ax.set_legend() #添加图注
 
 ax.text() #添加 text
